@@ -29,10 +29,10 @@ python -m spacy download es_core_news_lg
 
 ## Configuración
 
-En el archivo `RAG con NER4.py`, configurar las rutas:
+En el archivo `RAG_con_NER.py`, configurar las rutas:
 
 ```python
-RUTA_MODELO_GGUF = r"D:\Llama-cpp\Models\Gemma 4 E4B\gemma-4-E4B-it-Q4_K_M.gguf"
+RUTA_MODELO_GGUF = r".\Llama-cpp\Models\Gemma 4 E4B\gemma-4-E4B-it-Q4_K_M.gguf"
 NOMBRE_BD = "rag_fraude.db"
 ```
 
@@ -70,7 +70,18 @@ La base de datos SQLite (`rag_fraude.db`) contiene:
 
 🤖 IA RESPONDE:
 [Respuesta generada basada en los documentos]
-```
+✅ Se encontraron 2 fragmentos relacionados.
+
+Según los documentos, se sabe que él es Pedro Pérez, el CEO de TechCorp.
+
+*   **Investigación Legal:** La Fiscalía Anticorrupción ha abierto diligencias contra él por presuntos delitos de fraude financiero, falsedad documental y evasión de impuestos.
+*   **Contexto de la Investigación:** La investigación se originó a partir de información proporcionada por un exempleado de la compañía, quien aportó documentos que evidencian una red de sociedades instrumentales en Panamá y las Islas Vírgenes.
+*   **Perfil Empresarial:** Pedro Pérez es considerado uno de los empresarios más influyentes del sector tecnológico y fue el líder de TechCorp, empresa que creció hasta convertirse en una multinacional con más de 10 000 empleados y presencia en 30 países.
+*   **Impacto Corporativo:** Las prácticas cuestionadas habrían comenzado en 2019. Además, las acciones de TechCorp cayeron un 8,7% en la sesión de ayer.
+*   **Restricciones Financieras:** Debido a la investigación, el Banco Central Europeo (BCE) suspendió temporalmente la autorización de compra de TechCorp Europe por parte del fondo soberano noruego, a la espera de que se resuelva la investigación por fraude en la cúpula directiva.
+*   **Defensa:** Su abogado afirma que se trata de una campaña de desprestigio.
+
+La información se obtiene de doc_02_noticias.pdf y doc_03_compra.pdf.
 
 ## Notas
 
