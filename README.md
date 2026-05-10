@@ -82,7 +82,7 @@ Según los documentos, se sabe que él es Pedro Pérez, el CEO de TechCorp.
 *   **Defensa:** Su abogado afirma que se trata de una campaña de desprestigio.
 
 La información se obtiene de doc_02_noticias.pdf y doc_03_compra.pdf.
-
+```
 ## Notas
 
 - Requiere modelo GGUF de Llama.cpp (configurable en línea 13)
