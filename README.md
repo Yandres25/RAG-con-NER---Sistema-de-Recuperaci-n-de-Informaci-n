@@ -40,7 +40,7 @@ NOMBRE_BD = "rag_fraude.db"
 
 1. Ejecutar el script:
 ```bash
-python "RAG con NER4.py"
+python "RAG_con_NER.py"
 ```
 
 2. El sistema automáticamente:
